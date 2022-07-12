@@ -1,0 +1,150 @@
+body{margin: 0%;width: 80%;margin-left: 10%;background-color: rgb(193, 233, 181);}
+/**/
+.uno{width: 25%;display: flex;}
+.dos{width: 75%;display: flex;justify-content: left;}
+#contentA{padding: 1%;display:flex;background-color: rgb(255, 255, 255);}
+#TImagen{opacity: 80%;width: 100%;}
+/*LA*/
+#listaA{display: grid;grid-template-columns: repeat(auto-fill,33.3%);width: 70%;text-align: center;}
+#listaA li{list-style: none;margin-left: 75%;width: 100%;justify-content: center;color: rgb(53, 58, 58);padding: 1%;font-size: 1.5em;}
+#listaA li a{text-decoration: none;color: rgb(40, 40, 40);}
+
+#listaB{display: none;position: absolute;width: 20%;background-color: rgb(155, 255, 124);top: 0;right: 0;height: 92%;overflow-y: scroll;}
+#listaB a{text-decoration: none;display: flex;list-style: none;margin-bottom: 10%;background-color: rgb(255, 0, 0,0.1);width: 100%;margin-left: 0%;}
+#listaB a img{width: 60%;height: 15vh;border-radius: 15px;object-fit: cover;}
+#listaB a p{margin-left: 5%;text-align: center;color: black;}
+/**/
+#contentB{width: 100%;margin-top: 1.5%;text-align: center;}
+#imagen{display: block;}
+#imagen img{width: 50%;height: 300px;box-shadow: 0px 0px 5px 5px rgb(83, 75, 75,0.2);border-radius: 18px;}
+#imagen div{text-align: center;width: 100%;border-radius: 18px;margin-top: 5%;font-size: 2em;margin-right: 5%;}
+#imagen nav{text-align: center;width: 100%;font-size: 0.5em;border-radius: 18px;margin-top: 1%;margin-right: 5%;}
+/**/
+#contentC{margin-top: 2%;width: 70%;margin-left: 15%;}
+#contentC h2{text-align: center;}
+#contentC div{text-align: center;}iframe{width: 60%;height: 40vh;}
+#final{text-align: center;}
+#final img{width: 60%;height: 160px;object-fit: cover;}
+#iframeContent{display: none;top: 0;left: 0;right: 0;bottom: 0;position: fixed;margin: auto;height: 70vh;width: 80%;}
+/**/
+#contentD{width: 100%;margin-top: 5%;}
+#imagenAA{width: 15%;height: 180px;margin-top: 2%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+#imagenAB{width: 15%;height: 180px;margin-top: 17%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+#imagenAC{width: 15%;height: 180px;margin-top: 32%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+#imagenAD{width: 15%;height: 180px;margin-top: 47%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+#imagenAE{width: 15%;height: 180px;margin-top: 62%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+#imagenAF{width: 15%;height: 180px;margin-top: 77%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+#imagenAG{width: 15%;height: 180px;margin-top: 92%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+#imagenAH{width: 15%;height: 180px;margin-top: 107%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+#imagenAI{width: 15%;height: 180px;margin-top: 107%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+#imagenAJ{width: 15%;height: 180px;margin-top: 122%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+#imagenAK{width: 15%;height: 180px;margin-top: 137%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+#imagenAL{width: 15%;height: 180px;margin-top: 152%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+#documentoA{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 15%;opacity: 15%;}
+#documentoB{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 22%;opacity: 15%;}
+#documentoC{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 29%;opacity: 15%;}
+#documentoA:hover{position: fixed;right:1%;width: 15%;height: 150px;opacity: 100%;}
+#documentoB:hover{position: fixed;right: 1%;width: 15%;height: 150px;opacity: 100%;}
+#documentoC:hover{position: fixed;right: 1%;width: 15%;height: 150px;opacity: 100%;}
+@media (max-width:1155px) {
+    #listaA li{list-style: none;margin-left: 50%;width: 100%;}
+    #imagen img{width: 60%;height: 250px;}
+    /**/
+    #documentoA{font-size: 1.1em;}
+    #documentoB{font-size: 1.1em;}
+    #documentoC{font-size: 1.1em;}
+    /**/
+    #imagenAA{width: 15%;height: 160px;margin-top: 2%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+    #imagenAB{width: 15%;height: 160px;margin-top: 20%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+    #imagenAC{width: 15%;height: 160px;margin-top: 38%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+    #imagenAD{width: 15%;height: 160px;margin-top: 56%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+    #imagenAE{width: 15%;height: 160px;margin-top: 74%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+    #imagenAF{width: 15%;height: 160px;margin-top: 92%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+    #imagenAG{width: 15%;height: 160px;margin-top: 110%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+    #imagenAH{width: 15%;height: 160px;margin-top: 110%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+    #imagenAI{width: 15%;height: 160px;margin-top: 128%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+    #imagenAJ{width: 15%;height: 160px;margin-top: 146%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+    #imagenAK{width: 15%;height: 160px;margin-top: 164%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+    #imagenAL{width: 15%;height: 160px;margin-top: 184%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+    #documentoA{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 15%;opacity: 15%;}
+    #documentoB{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 22%;opacity: 15%;}
+    #documentoC{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 29%;opacity: 15%;}
+    #contentB{width: 50%;margin-left: 25%;}
+}
+@media (max-width:989px) {
+    #listaA li{list-style: none;margin-left: 40%;width: 100%;}
+    #TImagen{opacity: 80%;width: 100%;}
+    #imagen img{width: 100%;height: 250px;}
+    /**/
+    #imagenAA{width: 15%;height: 140px;margin-top: 2%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+    #imagenAB{width: 15%;height: 140px;margin-top: 20%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+    #imagenAC{width: 15%;height: 140px;margin-top: 38%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+    #imagenAD{width: 15%;height: 140px;margin-top: 56%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+    #imagenAE{width: 15%;height: 140px;margin-top: 74%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+    #imagenAF{width: 15%;height: 140px;margin-top: 92%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+    #imagenAG{width: 15%;height: 140px;margin-top: 110%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+    #imagenAH{width: 15%;height: 140px;margin-top: 110%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+    #imagenAI{width: 15%;height: 140px;margin-top: 128%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+    #imagenAJ{width: 15%;height: 140px;margin-top: 146%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+    #imagenAK{width: 15%;height: 140px;margin-top: 164%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+    #imagenAL{width: 15%;height: 140px;margin-top: 184%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+    #documentoA{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 15%;opacity: 15%;}
+    #documentoB{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 22%;opacity: 15%;}
+    #documentoC{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 29%;opacity: 15%;}
+        /**/
+        #documentoA{font-size: 1em;right: 0;text-align: right;}
+        #documentoB{font-size: 1em;right: 0;text-align: right;}
+        #documentoC{font-size: 1em;right: 0;text-align: right;}
+}
+@media (max-width:869px) {
+    #listaA li{list-style: none;margin-left: 40%;width: 100%;font-size: 1.2em;}
+        /**/
+        #imagenAA{width: 15%;height: 100px;margin-top: 2%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+        #imagenAB{width: 15%;height: 100px;margin-top: 20%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+        #imagenAC{width: 15%;height: 100px;margin-top: 38%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+        #imagenAD{width: 15%;height: 100px;margin-top: 56%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+        #imagenAE{width: 15%;height: 100px;margin-top: 74%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+        #imagenAF{width: 15%;height: 100px;margin-top: 92%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+        #imagenAG{width: 15%;height: 100px;margin-top: 110%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+        #imagenAH{width: 15%;height: 100px;margin-top: 110%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+        #imagenAI{width: 15%;height: 100px;margin-top: 128%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+        #imagenAJ{width: 15%;height: 100px;margin-top: 146%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+        #imagenAK{width: 15%;height: 100px;margin-top: 164%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+        #imagenAL{width: 15%;height: 100px;margin-top: 184%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+        #documentoA{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 15%;opacity: 15%;}
+        #documentoB{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 22%;opacity: 15%;}
+        #documentoC{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 29%;opacity: 15%;}
+        #imagen img{width: 80%;height:150px;box-shadow: 0px 0px 5px 5px rgb(83, 75, 75,0.2);border-radius: 18px;}
+}
+@media (max-width:698px) {
+    #listaA li{list-style: none;margin-left: 5%;width: 100%;font-size: 1.2em;}
+    .uno{width: 30%;display: flex;}
+    .dos{width: 70%;display: flex;}
+    #imagen div{font-size: 1.7em;margin-right: 5%;}
+    iframe{width: 90%;}
+            /**/
+            #imagenAA{width: 15%;height: 70px;margin-top: 2%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+            #imagenAB{width: 15%;height: 70px;margin-top: 20%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+            #imagenAC{width: 15%;height: 70px;margin-top: 38%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+            #imagenAD{width: 15%;height: 70px;margin-top: 56%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+            #imagenAE{width: 15%;height: 70px;margin-top: 74%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+            #imagenAF{width: 15%;height: 70px;margin-top: 92%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+            #imagenAG{width: 15%;height: 70px;margin-top: 110%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+            #imagenAH{width: 15%;height: 70px;margin-top: 110%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+            #imagenAI{width: 15%;height: 70px;margin-top: 128%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+            #imagenAJ{width: 15%;height: 70px;margin-top: 146%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+            #imagenAK{width: 15%;height: 70px;margin-top: 164%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+            #imagenAL{width: 15%;height: 70px;margin-top: 184%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
+            #documentoA{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 15%;opacity: 15%;}
+            #documentoB{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 22%;opacity: 15%;}
+            #documentoC{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 29%;opacity: 15%;}
+            #imagen img{width: 80%;height:150px;box-shadow: 0px 0px 5px 5px rgb(83, 75, 75,0.2);border-radius: 18px;}
+}
+@media (max-width:470px) {
+    #listaA li{list-style: none;margin-left: 1%;width: 100%;font-size: 1em;}
+    .uno{width: 35%;display: flex;}
+    .dos{width: 75%;display: flex;}
+    iframe{width: 100%;}
+    #imagen img{width: 50%;height: 200px;}
+    #imagen div{font-size: 1.7em;margin-right: 2%;}
+}
