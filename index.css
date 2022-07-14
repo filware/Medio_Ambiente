@@ -11,8 +11,8 @@ body{margin: 0%;width: 80%;margin-left: 10%;background-color: rgb(193, 233, 181)
 
 #listaB{display: none;position: absolute;width: 20%;background-color: rgb(155, 255, 124);top: 0;right: 0;height: 92%;overflow-y: scroll;}
 #listaB a{text-decoration: none;display: flex;list-style: none;margin-bottom: 10%;background-color: rgb(255, 0, 0,0.1);width: 100%;margin-left: 0%;}
-#listaB a img{width: 60%;height: 15vh;border-radius: 15px;object-fit: cover;}
-#listaB a p{margin-left: 5%;text-align: center;color: black;}
+#listaB a img{width: 100px;height: 100px;border-radius: 15px;object-fit: cover;}
+#listaB a p{margin-left: 5%;text-align: center;color: black;width: 50%;}
 /**/
 #contentB{width: 100%;margin-top: 1.5%;text-align: center;}
 #imagen{display: block;}
@@ -28,24 +28,28 @@ body{margin: 0%;width: 80%;margin-left: 10%;background-color: rgb(193, 233, 181)
 #iframeContent{display: none;top: 0;left: 0;right: 0;bottom: 0;position: fixed;margin: auto;height: 70vh;width: 80%;}
 /**/
 #contentD{width: 100%;margin-top: 5%;}
-#imagenAA{width: 15%;height: 180px;margin-top: 2%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-#imagenAB{width: 15%;height: 180px;margin-top: 17%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-#imagenAC{width: 15%;height: 180px;margin-top: 32%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-#imagenAD{width: 15%;height: 180px;margin-top: 47%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-#imagenAE{width: 15%;height: 180px;margin-top: 62%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-#imagenAF{width: 15%;height: 180px;margin-top: 77%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-#imagenAG{width: 15%;height: 180px;margin-top: 92%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-#imagenAH{width: 15%;height: 180px;margin-top: 107%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-#imagenAI{width: 15%;height: 180px;margin-top: 107%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-#imagenAJ{width: 15%;height: 180px;margin-top: 122%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-#imagenAK{width: 15%;height: 180px;margin-top: 137%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-#imagenAL{width: 15%;height: 180px;margin-top: 152%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-#documentoA{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 15%;opacity: 15%;}
-#documentoB{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 22%;opacity: 15%;}
-#documentoC{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 29%;opacity: 15%;}
-#documentoA:hover{position: fixed;right:1%;width: 15%;height: 150px;opacity: 100%;}
-#documentoB:hover{position: fixed;right: 1%;width: 15%;height: 150px;opacity: 100%;}
-#documentoC:hover{position: fixed;right: 1%;width: 15%;height: 150px;opacity: 100%;}
+#imagenAA{width: 15%;height: 180px;margin-top: 2%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+#imagenAB{width: 15%;height: 180px;margin-top: 17%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+#imagenAC{width: 15%;height: 180px;margin-top: 32%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+#imagenAD{width: 15%;height: 180px;margin-top: 47%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+#imagenAE{width: 15%;height: 180px;margin-top: 62%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+#imagenAF{width: 15%;height: 180px;margin-top: 77%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+#imagenAG{width: 15%;height: 180px;margin-top: 92%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+#imagenAH{width: 15%;height: 180px;margin-top: 107%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+#imagenAI{width: 15%;height: 180px;margin-top: 107%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+#imagenAJ{width: 15%;height: 180px;margin-top: 122%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+#imagenAK{width: 15%;height: 180px;margin-top: 137%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+#imagenAL{width: 15%;height: 180px;margin-top: 152%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+#documentoA{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 15%;opacity: 15%;text-align: right;}
+#documentoB{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 25%;opacity: 15%;text-align: right;}
+#documentoC{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 35%;opacity: 15%;text-align: right;}
+#documentoA:hover{position: fixed;right: 1%;;height: 150px;opacity: 100%;}
+#documentoB:hover{position: fixed;right: 1%;height: 150px;opacity: 100%;}
+#documentoC:hover{position: fixed;right: 1%;height: 150px;opacity: 100%;}
+#cell{display: none;}
+#imagenes{display: block;}
+#verA{display: block;}
+#ver{display: none;}
 @media (max-width:1155px) {
     #listaA li{list-style: none;margin-left: 50%;width: 100%;}
     #imagen img{width: 60%;height: 250px;}
@@ -54,97 +58,152 @@ body{margin: 0%;width: 80%;margin-left: 10%;background-color: rgb(193, 233, 181)
     #documentoB{font-size: 1.1em;}
     #documentoC{font-size: 1.1em;}
     /**/
-    #imagenAA{width: 15%;height: 160px;margin-top: 2%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-    #imagenAB{width: 15%;height: 160px;margin-top: 20%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-    #imagenAC{width: 15%;height: 160px;margin-top: 38%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-    #imagenAD{width: 15%;height: 160px;margin-top: 56%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-    #imagenAE{width: 15%;height: 160px;margin-top: 74%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-    #imagenAF{width: 15%;height: 160px;margin-top: 92%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-    #imagenAG{width: 15%;height: 160px;margin-top: 110%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-    #imagenAH{width: 15%;height: 160px;margin-top: 110%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-    #imagenAI{width: 15%;height: 160px;margin-top: 128%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-    #imagenAJ{width: 15%;height: 160px;margin-top: 146%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-    #imagenAK{width: 15%;height: 160px;margin-top: 164%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-    #imagenAL{width: 15%;height: 160px;margin-top: 184%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-    #documentoA{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 15%;opacity: 15%;}
-    #documentoB{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 22%;opacity: 15%;}
-    #documentoC{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 29%;opacity: 15%;}
+    #imagenAA{width: 15%;height: 160px;margin-top: 2%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+    #imagenAB{width: 15%;height: 160px;margin-top: 20%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+    #imagenAC{width: 15%;height: 160px;margin-top: 38%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+    #imagenAD{width: 15%;height: 160px;margin-top: 56%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+    #imagenAE{width: 15%;height: 160px;margin-top: 74%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+    #imagenAF{width: 15%;height: 160px;margin-top: 92%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+    #imagenAG{width: 15%;height: 160px;margin-top: 110%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+    #imagenAH{width: 15%;height: 160px;margin-top: 110%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+    #imagenAI{width: 15%;height: 160px;margin-top: 128%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+    #imagenAJ{width: 15%;height: 160px;margin-top: 146%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+    #imagenAK{width: 15%;height: 160px;margin-top: 164%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+    #imagenAL{width: 15%;height: 160px;margin-top: 184%;position: absolute;left: 5%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+    #documentoA{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 20%;height: 150px;top: 20%;opacity: 15%;}
+    #documentoB{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 20%;height: 150px;top: 30%;opacity: 15%;}
+    #documentoC{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 20%;height: 150px;top: 40%;opacity: 15%;}
     #contentB{width: 50%;margin-left: 25%;}
+    #cell{display: none;}
+#imagenes{display: block;}
 }
 @media (max-width:989px) {
+    /**/
+    #listaB{display: none;position: absolute;width: 30%;background-color: rgb(155, 255, 124);top: 0;right: 0;height: 92%;overflow-y: scroll;}
+    #listaB a img{width: 90px;height: 90px;border-radius: 15px;object-fit: cover;}
+    #listaB a p{margin-left: 2%;text-align: center;color: black;width: 50%;}
+    /**/
     #listaA li{list-style: none;margin-left: 40%;width: 100%;}
     #TImagen{opacity: 80%;width: 100%;}
     #imagen img{width: 100%;height: 250px;}
     /**/
-    #imagenAA{width: 15%;height: 140px;margin-top: 2%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-    #imagenAB{width: 15%;height: 140px;margin-top: 20%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-    #imagenAC{width: 15%;height: 140px;margin-top: 38%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-    #imagenAD{width: 15%;height: 140px;margin-top: 56%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-    #imagenAE{width: 15%;height: 140px;margin-top: 74%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-    #imagenAF{width: 15%;height: 140px;margin-top: 92%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-    #imagenAG{width: 15%;height: 140px;margin-top: 110%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-    #imagenAH{width: 15%;height: 140px;margin-top: 110%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-    #imagenAI{width: 15%;height: 140px;margin-top: 128%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-    #imagenAJ{width: 15%;height: 140px;margin-top: 146%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-    #imagenAK{width: 15%;height: 140px;margin-top: 164%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-    #imagenAL{width: 15%;height: 140px;margin-top: 184%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-    #documentoA{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 15%;opacity: 15%;}
-    #documentoB{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 22%;opacity: 15%;}
-    #documentoC{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 29%;opacity: 15%;}
+    #imagenAA{width: 15%;height: 140px;margin-top: 2%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+    #imagenAB{width: 15%;height: 140px;margin-top: 20%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+    #imagenAC{width: 15%;height: 140px;margin-top: 38%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+    #imagenAD{width: 15%;height: 140px;margin-top: 56%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+    #imagenAE{width: 15%;height: 140px;margin-top: 74%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+    #imagenAF{width: 15%;height: 140px;margin-top: 92%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+    #imagenAG{width: 15%;height: 140px;margin-top: 110%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+    #imagenAH{width: 15%;height: 140px;margin-top: 110%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+    #imagenAI{width: 15%;height: 140px;margin-top: 128%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+    #imagenAJ{width: 15%;height: 140px;margin-top: 146%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+    #imagenAK{width: 15%;height: 140px;margin-top: 164%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+    #imagenAL{width: 15%;height: 140px;margin-top: 184%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+    #documentoA{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 20%;opacity: 15%;}
+    #documentoB{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 30%;opacity: 15%;}
+    #documentoC{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 40%;opacity: 15%;}
         /**/
         #documentoA{font-size: 1em;right: 0;text-align: right;}
         #documentoB{font-size: 1em;right: 0;text-align: right;}
         #documentoC{font-size: 1em;right: 0;text-align: right;}
+        #cell{display: none;}
+#imagenes{display: block;}
 }
 @media (max-width:869px) {
     #listaA li{list-style: none;margin-left: 40%;width: 100%;font-size: 1.2em;}
         /**/
-        #imagenAA{width: 15%;height: 100px;margin-top: 2%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-        #imagenAB{width: 15%;height: 100px;margin-top: 20%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-        #imagenAC{width: 15%;height: 100px;margin-top: 38%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-        #imagenAD{width: 15%;height: 100px;margin-top: 56%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-        #imagenAE{width: 15%;height: 100px;margin-top: 74%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-        #imagenAF{width: 15%;height: 100px;margin-top: 92%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-        #imagenAG{width: 15%;height: 100px;margin-top: 110%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-        #imagenAH{width: 15%;height: 100px;margin-top: 110%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-        #imagenAI{width: 15%;height: 100px;margin-top: 128%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-        #imagenAJ{width: 15%;height: 100px;margin-top: 146%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-        #imagenAK{width: 15%;height: 100px;margin-top: 164%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-        #imagenAL{width: 15%;height: 100px;margin-top: 184%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-        #documentoA{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 15%;opacity: 15%;}
-        #documentoB{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 22%;opacity: 15%;}
-        #documentoC{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 29%;opacity: 15%;}
+        #imagenAA{width: 15%;height: 100px;margin-top: 2%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+        #imagenAB{width: 15%;height: 100px;margin-top: 20%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+        #imagenAC{width: 15%;height: 100px;margin-top: 38%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+        #imagenAD{width: 15%;height: 100px;margin-top: 56%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+        #imagenAE{width: 15%;height: 100px;margin-top: 74%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+        #imagenAF{width: 15%;height: 100px;margin-top: 92%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+        #imagenAG{width: 15%;height: 100px;margin-top: 110%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+        #imagenAH{width: 15%;height: 100px;margin-top: 110%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+        #imagenAI{width: 15%;height: 100px;margin-top: 128%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+        #imagenAJ{width: 15%;height: 100px;margin-top: 146%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+        #imagenAK{width: 15%;height: 100px;margin-top: 164%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+        #imagenAL{width: 15%;height: 100px;margin-top: 184%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+        #documentoA{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 17%;opacity: 15%;}
+        #documentoB{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 30%;opacity: 15%;}
+        #documentoC{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 43%;opacity: 15%;}
         #imagen img{width: 80%;height:150px;box-shadow: 0px 0px 5px 5px rgb(83, 75, 75,0.2);border-radius: 18px;}
+        #cell{display: none;}
+#imagenes{display: block;}
+    /**/
+    #listaB{display: none;position: absolute;width: 40%;background-color: rgb(155, 255, 124);top: 0;right: 0;height: 92%;overflow-y: scroll;}
+    #listaB a img{width: 90px;height: 90px;border-radius: 15px;object-fit: cover;}
+    #listaB a p{margin-left: 2%;text-align: center;color: black;width: 60%;}
 }
 @media (max-width:698px) {
-    #listaA li{list-style: none;margin-left: 5%;width: 100%;font-size: 1.2em;}
-    .uno{width: 30%;display: flex;}
-    .dos{width: 70%;display: flex;}
+    #verA{display: none ;}
+    #ver{display: block;}
+    #cell{display: block;text-align:center;position: fixed;left: 0;top: 50%;width: 10%;}
+    #imagenes{display: none;width: 30%;position: absolute;left: 0;background-color: rgb(164, 221, 127);height: 75vh;overflow-y:scroll;}
+    #imagenes::-webkit-scrollbar {
+        width: 5px;
+        height: 8px; 
+        background-color: white;
+    }
+    #imagenes::-webkit-scrollbar-thumb {
+        background-color: rgb(62, 247, 210,0.8);
+    }
+    #listaA{display: grid;grid-template-columns: repeat(auto-fill,33.3%);margin-left: 0%;width: 100%;}
+    #listaA li{list-style: none;width: 100%;font-size: 1.1em;margin-left: 3.5%;}
+    .uno{width: 20%;}
+    .dos{width: 80%;}
     #imagen div{font-size: 1.7em;margin-right: 5%;}
     iframe{width: 90%;}
             /**/
-            #imagenAA{width: 15%;height: 70px;margin-top: 2%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-            #imagenAB{width: 15%;height: 70px;margin-top: 20%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-            #imagenAC{width: 15%;height: 70px;margin-top: 38%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-            #imagenAD{width: 15%;height: 70px;margin-top: 56%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-            #imagenAE{width: 15%;height: 70px;margin-top: 74%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-            #imagenAF{width: 15%;height: 70px;margin-top: 92%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-            #imagenAG{width: 15%;height: 70px;margin-top: 110%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-            #imagenAH{width: 15%;height: 70px;margin-top: 110%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-            #imagenAI{width: 15%;height: 70px;margin-top: 128%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-            #imagenAJ{width: 15%;height: 70px;margin-top: 146%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-            #imagenAK{width: 15%;height: 70px;margin-top: 164%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-            #imagenAL{width: 15%;height: 70px;margin-top: 184%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225)}
-            #documentoA{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 15%;opacity: 15%;}
-            #documentoB{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 22%;opacity: 15%;}
-            #documentoC{text-decoration: none;font-size: 1.3em;position: fixed;right: 2%;width: 15%;height: 150px;top: 29%;opacity: 15%;}
+            #imagenAA{width: 95%;height: 90px;margin-top: 2%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+            #imagenAB{width: 95%;height: 90px;margin-top: 70%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+            #imagenAC{width: 95%;height: 90px;margin-top: 140%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+            #imagenAD{width: 95%;height: 90px;margin-top: 210%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+            #imagenAE{width: 95%;height: 90px;margin-top: 280%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+            #imagenAF{width: 95%;height: 90px;margin-top: 350%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+            #imagenAG{width: 95%;height: 90px;margin-top: 420%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+            #imagenAH{width: 95%;height: 90px;margin-top: 490%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+            #imagenAI{width: 95%;height: 90px;margin-top: 490%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+            #imagenAJ{width: 95%;height: 90px;margin-top: 560%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+            #imagenAK{width: 95%;height: 90px;margin-top: 630%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+            #imagenAL{width: 95%;height: 90px;margin-top: 700%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+            #documentoA{text-decoration: none;font-size: 1.1em;position: fixed;right: 2%;width: 15%;top: 20%;opacity: 15%;text-align: right;}
+            #documentoB{text-decoration: none;font-size: 1.1em;position: fixed;right: 2%;width: 15%;top: 35%;opacity: 15%;text-align: right;}
+            #documentoC{text-decoration: none;font-size: 1.1em;position: fixed;right: 2%;width: 15%;top: 50%;opacity: 15%;text-align: right;}
             #imagen img{width: 80%;height:150px;box-shadow: 0px 0px 5px 5px rgb(83, 75, 75,0.2);border-radius: 18px;}
+            #contentB{width: 70%;margin-left: 15%;}
+                /**/
+    #listaB{display: none;position: absolute;width: 60%;background-color: rgb(155, 255, 124);top: 0;right: 0;height: 92%;overflow-y: scroll;}
+    #listaB a img{width: 90px;height: 90px;border-radius: 15px;object-fit: cover;}
+    #listaB a p{margin-left: 2%;text-align: center;color: black;width: 80%;}
 }
-@media (max-width:470px) {
-    #listaA li{list-style: none;margin-left: 1%;width: 100%;font-size: 1em;}
-    .uno{width: 35%;display: flex;}
-    .dos{width: 75%;display: flex;}
+@media (max-width:489px) {
+    body{margin: 0%;width: 95%;margin-left: 2.5%;background-color: rgb(193, 233, 181);}
+    #listaA{display: grid;grid-template-columns: repeat(auto-fill,33.3%);margin-left: 0%;width: 100%;}
+    #listaA li{list-style: none;width: 100%;font-size: 0.9em;margin-left: 0%;}
+    .uno{width: 20%;}
+    .dos{width: 80%;}
     iframe{width: 100%;}
     #imagen img{width: 50%;height: 200px;}
     #imagen div{font-size: 1.7em;margin-right: 2%;}
+    /**/
+    #listaB{display: none;position: absolute;width: 60%;background-color: rgb(155, 255, 124);top: 0;right: 0;height: 92%;overflow-y: scroll;}
+    #listaB a img{width: 90px;height: 90px;border-radius: 15px;object-fit: cover;}
+    #listaB a p{margin-left: 2%;text-align: center;color: black;width: 80%;}
+    /**/
+    #imagen img{width: 170px;margin-top: 0.2%;height: 150px;}
+    #imagen div{font-size: 1.2em;}
+    /**/
+    #imagenAA{width: 95%;height: 90px;margin-top: 2%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+    #imagenAB{width: 95%;height: 90px;margin-top: 100%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+    #imagenAC{width: 95%;height: 90px;margin-top: 200%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+    #imagenAD{width: 95%;height: 90px;margin-top: 300%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+    #imagenAE{width: 95%;height: 90px;margin-top: 400%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+    #imagenAF{width: 95%;height: 90px;margin-top: 500%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+    #imagenAG{width: 95%;height: 90px;margin-top: 500%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+    #imagenAH{width: 95%;height: 90px;margin-top: 550%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+    #imagenAI{width: 95%;height: 90px;margin-top: 600%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+    #imagenAJ{width: 95%;height: 90px;margin-top: 700%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+    #imagenAK{width: 95%;height: 90px;margin-top: 800%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
+    #imagenAL{width: 95%;height: 90px;margin-top: 900%;position: absolute;left: 0%;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4)}
 }

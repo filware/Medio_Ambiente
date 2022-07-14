@@ -1,8 +1,12 @@
 const lista=document.getElementById("listaB");
 const all=document.querySelector("body")
 const todo=document.getElementById("cuerpo")
-document.getElementById("ver").addEventListener("mousemove",()=>{lista.style.display="block";todo.style.opacity="20%";all.style.overflowY="hidden"});document.getElementById("ver").addEventListener("mouseout",()=>{lista.style.display="none";todo.style.opacity="100%";all.style.overflowY="auto"})
+document.getElementById("ver").addEventListener("click",()=>{lista.style.display="block";todo.style.opacity="20%";all.style.overflowY="hidden"});todo.addEventListener("mouseover",()=>{lista.style.display="none";todo.style.opacity="100%";all.style.overflowY="auto"})
+lista.addEventListener("click",()=>{lista.style.display="block";todo.style.opacity="20%";all.style.overflowY="hidden"});todo.addEventListener("mouseover",()=>{lista.style.display="none";todo.style.opacity="100%";all.style.overflowY="auto"})  
+console.log(lista.attributes);
+document.getElementById("verA").addEventListener("mousemove",()=>{lista.style.display="block";todo.style.opacity="20%";all.style.overflowY="hidden"});document.getElementById("verA").addEventListener("mouseout",()=>{lista.style.display="none";todo.style.opacity="100%";all.style.overflowY="auto"})
 lista.addEventListener("mousemove",()=>{lista.style.display="block";todo.style.opacity="20%";all.style.overflowY="hidden"});lista.addEventListener("mouseout",()=>{lista.style.display="none";todo.style.opacity="100%";all.style.overflowY="auto"})  
+
 const envioA=document.getElementById("envioA")
 envioA.addEventListener("click",()=>{
     lista.style.display="none"
@@ -88,4 +92,17 @@ todo.addEventListener("click",()=>{
     iframeContent.style.display="none"
     all.style.overflowY="scroll"
     todo.style.opacity="100%";
+})
+function saber(dato){
+    Imagenes.style.display=`${dato}`
+}
+const verImagenes=document.getElementById("cell")
+const Imagenes=document.getElementById("imagenes")
+verImagenes.addEventListener("mousemove",()=>{
+    verImagenes.style.display="none"
+    saber("block")
+})
+Imagenes.addEventListener("mouseleave",()=>{
+    verImagenes.style.display="block"
+    saber("none")
 })
