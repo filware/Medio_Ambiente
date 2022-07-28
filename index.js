@@ -1,11 +1,12 @@
 const lista=document.getElementById("listaB");
 const all=document.querySelector("body")
 const todo=document.getElementById("cuerpo")
-document.getElementById("ver").addEventListener("click",()=>{lista.style.display="block";todo.style.opacity="20%";all.style.overflowY="hidden"});todo.addEventListener("mouseover",()=>{lista.style.display="none";todo.style.opacity="100%";all.style.overflowY="auto"})
-lista.addEventListener("click",()=>{lista.style.display="block";todo.style.opacity="20%";all.style.overflowY="hidden"});todo.addEventListener("mouseover",()=>{lista.style.display="none";todo.style.opacity="100%";all.style.overflowY="auto"})  
-console.log(lista.attributes);
-document.getElementById("verA").addEventListener("mousemove",()=>{lista.style.display="block";todo.style.opacity="20%";all.style.overflowY="hidden"});document.getElementById("verA").addEventListener("mouseout",()=>{lista.style.display="none";todo.style.opacity="100%";all.style.overflowY="auto"})
-lista.addEventListener("mousemove",()=>{lista.style.display="block";todo.style.opacity="20%";all.style.overflowY="hidden"});lista.addEventListener("mouseout",()=>{lista.style.display="none";todo.style.opacity="100%";all.style.overflowY="auto"})  
+
+document.getElementById("ver").addEventListener("mousemove",()=>{lista.style.display="block";todo.style.opacity="20%";all.style.overflowY="hidden"});
+document.getElementById("verA").addEventListener("mousemove",()=>{lista.style.display="block";todo.style.opacity="20%";all.style.overflowY="hidden"});
+document.getElementById("verA").addEventListener("mouseout",()=>{lista.style.display="none";todo.style.opacity="100%";all.style.overflowY="auto"})
+lista.addEventListener("mousemove",()=>{lista.style.display="block";todo.style.opacity="20%";all.style.overflowY="hidden"});
+lista.addEventListener("mouseout",()=>{lista.style.display="none";todo.style.opacity="100%";all.style.overflowY="auto"})  ;
 
 const envioA=document.getElementById("envioA")
 envioA.addEventListener("click",()=>{
@@ -106,3 +107,13 @@ Imagenes.addEventListener("mouseleave",()=>{
     verImagenes.style.display="block"
     saber("none")
 })
+const documento=document.getElementById("listAlter")
+function mouse(){
+    const ventanaCap=window.scrollY;
+    const ventanaCom=window.innerHeight;
+    if((ventanaCom/2)>ventanaCap){
+        documento.style.position="fixed"
+    }else{
+        documento.style.position="absolute"
+    }
+}
