@@ -107,13 +107,20 @@ Imagenes.addEventListener("mouseleave",()=>{
     verImagenes.style.display="block"
     saber("none")
 })
+//
 const documento=document.getElementById("listAlter")
 function mouse(){
     const ventanaCap=window.scrollY;
-    const ventanaCom=window.innerHeight;
-    if((ventanaCom/2)>ventanaCap){
-        documento.style.position="fixed"
+    const ventanaCom=screen.height;
+    if((ventanaCom/2)<ventanaCap){
+        documento.style=`
+        position:fixed;
+        top: 15%;
+        `
     }else{
-        documento.style.position="absolute"
+        documento.style=`
+        position:absolute;
+        top: 75%;
+        `
     }
 }
