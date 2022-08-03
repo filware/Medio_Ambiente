@@ -31,6 +31,7 @@ body{margin: 0%;width: 80%;margin-left: 10%;background-color: rgb(193, 233, 181)
 #imagenAA{height: 180px;border-radius: 1pc;border: solid 2px rgb(0, 255, 225,0.4);width: 100%;margin-top: 15%;}
 #cell{display: none;}
 #imagenes{display: block;position: absolute;left: 2%;width: 14.5%;display: grid;grid-template-columns: repeat(auto-fill,100%);top: 75%;}
+#imagenesA{display: none;}
 #verA{display: block;}
 #ver{display: none;}
 /*contenido*/
@@ -40,6 +41,14 @@ body{margin: 0%;width: 80%;margin-left: 10%;background-color: rgb(193, 233, 181)
 /*logos*/
 #logo{position: absolute;left: 2%;top: 18%;height:250px;width: 15%;border:solid 2px rgb(2, 130, 2,0.2);box-shadow:-1px 1px 5px 10px rgb(2, 130, 2,0.5);}
 #logoA{position: absolute;right: 2%;top: 18%;height:250px;width: 15%;border:solid 2px rgb(2, 130, 2,0.2);box-shadow:-1px 1px 5px 10px rgb(2, 130, 2,0.5);}
+/*screenImg*/
+#imagenesScrren{background-color: rgb(68, 248, 68);z-index: 11;position: fixed;width: 100%;top: 0;left: 0;height: 100vh;display: none;}
+#imgScreen{position: absolute;width: 80%;top: 10%;left: 0;right: 0;margin: auto;height: 80%;}
+#salir{position: absolute;bottom: 0%;right: 50%;font-size: 2em;color: red;background-color: orange;padding-left: 15px;padding-right: 15px;padding-top: 5px;
+    border-radius: 3px;animation: salir ease 2s}
+@keyframes salir {
+    0%{bottom: -15%;}
+}
 @media (max-width:1155px) {
     #imagen img{width: 60%;height: 250px;}
     /**/
@@ -50,6 +59,11 @@ body{margin: 0%;width: 80%;margin-left: 10%;background-color: rgb(193, 233, 181)
     /**/
     #logo{top: 20%;width: 200px;height: 250px}
     #logoA{top: 20%;width: 200px;height: 250px}
+    #imagenesA{display: none;}
+    #contentA{padding: 1%;background-color: rgb(255, 255, 255);display: grid;grid-template-columns: 25% 75%;}
+    .uno{font-size: 1.2em;margin-top: 5%;}
+    #listaA li{font-size: 1.2em;}
+
 }
 @media (max-width:989px) {
     /**/
@@ -62,6 +76,7 @@ body{margin: 0%;width: 80%;margin-left: 10%;background-color: rgb(193, 233, 181)
     /**/
     #cell{display: none;}
     #imagenes{width: 15%;}
+    #imagenesA{display: none;}
     #imagenAA{height: 150px;}
     /**/
     #listAlter{position: fixed;right: 0;background-color: rgb(174, 255, 131);width: 20%;height: auto;z-index: 10;right: 0%;top: 20%;display: grid;grid-template-columns: repeat(auto-fill,100%);}
@@ -76,6 +91,7 @@ body{margin: 0%;width: 80%;margin-left: 10%;background-color: rgb(193, 233, 181)
     #imagen img{width: 80%;height:150px;box-shadow: 0px 0px 5px 5px rgb(83, 75, 75,0.2);border-radius: 18px;}
     #cell{display: none;}
     #imagenes{width: 15%;}
+    #imagenesA{display: none;}
     #imagenAA{height: 110px;}
     /**/
     #listaB{display: none;position: absolute;width: 40%;background-color: rgb(155, 255, 124);top: 0;right: 0;height: 92%;overflow-y: scroll;}
@@ -93,8 +109,9 @@ body{margin: 0%;width: 80%;margin-left: 10%;background-color: rgb(193, 233, 181)
     /**/
     #verA{display: none ;}
     #ver{display: block;}
-    #cell{display: block;text-align:center;position: fixed;left: 0;top: 60%;width: 10%;}
-    #imagenes{top:50%;padding-right: 1%;overflow-x: hidden;display: none;width: 100%;position: absolute;left: 0;background-color: rgb(164, 221, 127);height: 75vh;overflow-y:scroll;}
+    #cell{display: block;text-align:center;position: fixed;left: 0;top: 55%;width: 8%;color: red;}
+    #imagenes{display: none;}
+    #imagenesA{top:15%;padding-right: 1%;overflow-x: hidden;display: none;position: absolute;left: 0;background-color: rgb(164, 221, 127);height: 85vh;overflow-y:scroll;width: 35%;}
     #imagenes::-webkit-scrollbar {
         width: 5px;
         height: 8px; 
@@ -115,8 +132,12 @@ body{margin: 0%;width: 80%;margin-left: 10%;background-color: rgb(193, 233, 181)
     #listaB a img{width: 90px;height: 90px;border-radius: 15px;object-fit: cover;}
     #listaB a p{margin-left: 2%;text-align: center;color: black;width: 80%;}
     /**/
-    #logo{top: 25%;width: 100px;height: 155px}
-    #logoA{top: 25%;width: 100px;height: 155px}
+    #logo{top: 19%;width: 100px;height: 155px}
+    #logoA{top: 19%;width: 100px;height: 155px}
+
+    #contentA{padding: 1%;background-color: rgb(255, 255, 255);display: grid;grid-template-columns: 25% 75%;}
+    .uno{font-size: 1.2em;margin-top: 5%;}
+    #listaA li{font-size: 1em;}
 }
 @media (max-width:489px) {
     body{margin: 0%;width: 95%;margin-left: 2.5%;background-color: rgb(193, 233, 181);}
